@@ -1,0 +1,150 @@
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+:root {
+    --IRIS: #4D5AE5;
+    --OCEAN: #404BBF;
+    --NAVY-BLUE: #2E2F42;
+    --GREEN: #31D0AA;
+    --SLATE: #434455;
+    --LIGHT-SLATE: #8E8F99;
+    --CORNFLOWER: #E7E9FC;
+    --CLOUD: #F4F4FD;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--NAVY-BLUE);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+.nav {}
+
+.nav-logo {}
+
+.nav-logo:hover,
+.nav-logo:focus {}
+
+.nav-list {}
+
+.nav-list-item {}
+
+.nav-list-link {}
+
+.nav-list-link:hover,
+.nav-list-link:focus {}
+
+.address {}
+
+.address-list {}
+
+.address-list-item {}
+
+.address-link-phone {}
+
+.address-link-phone:hover,
+.address-link-phone:focus {}
+
+.address-link-email {}
+
+.address-link-email:hover,
+.address-link-email:focus {}
+
+/**
+  |============================
+  | Hero styles
+  |============================
+*/
+.hero-title {}
+
+.hero-btn {}
+
+.hero-btn:hover,
+.hero-btn:focus {}
+
+/**
+  |============================
+  | Benefits styles
+  |============================
+*/
+.benefits {}
+
+.benefits-title {}
+
+.benefits-list {}
+
+.benefits-list-item {}
+
+.benefits-list-subtitle {}
+
+.benefits-list-text {}
+
+/**
+  |============================
+  | Products styles
+  |============================
+*/
+.products-title {}
+
+.products-list {}
+
+.products-list-item {}
+
+.products-list-img {}
+
+/**
+  |============================
+  | Team styles
+  |============================
+*/
+.team {}
+
+.team-list {}
+
+.team-list-item {}
+
+.team-list-img {}
+
+.team-list-subtitle {}
+
+.team-list-text {}
+
+/**
+  |============================
+  | Portfolio/Projects styles
+  |============================
+*/
+.projects-filters-list {}
+
+.projects-filters-item {}
+
+.projects-filters-btn {}
+
+.projects-filters-btn:hover,
+.projects-filters-btn:focus {}
+
+.projects-list {}
+
+.projects-list-item {}
+
+.projects-list-link {}
+
+.projects-list-img {}
+
+.projects-list-subtitle {}
+
+.projects-list-text {}
